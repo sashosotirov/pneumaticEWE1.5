@@ -1,0 +1,30 @@
+This is an Arduino library that provides support for multiple digital
+buttons on a single analog input pin.  The buttons are arranged along
+a resistor ladder, which causes each button press to yield a different
+voltage at the input pin.
+
+The library automatically debounces the buttons and optionally
+emulates repeating keypresses.
+
+To obtain the most recent version of the code or to report issues (or,
+better, provide fixes), please visit the Github pages at
+<https://github.com/olewolf/Analog_Buttons>.
+
+Inquiries via the Github issue tracker, please.  This way, others may benefit
+from the answers.
+
+(C) 2015 Ole Wolf <wolf@blazingangles.com>
+
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
