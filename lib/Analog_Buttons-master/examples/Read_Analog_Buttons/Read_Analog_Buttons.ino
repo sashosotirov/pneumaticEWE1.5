@@ -64,6 +64,7 @@ void loop( )
   if( keypress != -1 )
   {
 	Serial.print( "Keypress: " );
-	Serial.println( keypress );  
+	Serial.println( keypress );
+    
   }
 }
